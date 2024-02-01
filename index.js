@@ -16,7 +16,7 @@ document.addEventListener("keydown", function(event){
 });
 //function handleClick(){
     
-  //  var soundButtonW = new Audio("./sounds/crash.mp3");
+  //  var soundButtonW = new Audio("././crash.mp3");
     // soundButtonW.play();
 
 //}
@@ -25,35 +25,35 @@ function playKeys(key){
     //alert(key);
     switch (key) {
         case "w":
-            var soundButton = new Audio("sounds/crash.mp3");
+            var soundButton = new Audio("./crash.mp3");
             soundButton.play();
             break;
         case "a":
-            var soundButton = new Audio("sounds/kick-bass.mp3");
+            var soundButton = new Audio("./kick-bass.mp3");
             soundButton.play();
             break;
         case "s":
-            var soundButton = new Audio("sounds/snare.mp3");
+            var soundButton = new Audio("./snare.mp3");
             soundButton.play();
             break;
         case "d":
-            var soundButton = new Audio("sounds/tom-1.mp3");
+            var soundButton = new Audio("./tom-1.mp3");
             soundButton.play();
             break;
         case "j":
-            var soundButton = new Audio("sounds/tom-2.mp3");
+            var soundButton = new Audio("./tom-2.mp3");
             soundButton.play();
             break;
         case "k":
-            var soundButton = new Audio("sounds/tom-3.mp3");
+            var soundButton = new Audio("./tom-3.mp3");
             soundButton.play();
             break;
         case "l":
-            var soundButton = new Audio("sounds/tom-4.mp3");
+            var soundButton = new Audio("./tom-4.mp3");
             soundButton.play();
             break;
         default:
-            var soundButton = new Audio("sounds/tom-5.mp3");
+            var soundButton = new Audio("./tom-5.mp3");
             soundButton.play();
             break;
     }
